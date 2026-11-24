@@ -1,0 +1,8 @@
+.DS_Store
+*.log
+
+# Local backend configuration
+flower-backend/.env
+
+# Installed dependencies are restored with npm ci.
+flower-backend/node_modules/
