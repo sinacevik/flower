@@ -117,10 +117,7 @@ if (checkoutButton) {
           products: cart.map((item) => ({
             product_id: item.id,
             quantity: item.quantity,
-            price: item.price,
           })),
-          total_price: cart.reduce((sum, item) => sum + item.price * item.quantity, 0),
-          status: "pending",
         }),
       });
 
